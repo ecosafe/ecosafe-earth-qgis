@@ -1,0 +1,33 @@
+ECOSAFE EARTH PARA QGIS • versão 1.0.1
+
+Instalação
+No QGIS, vá a Complementos > Gerenciar e Instalar Complementos >
+Instalar a partir de ZIP. Selecione EcoSafe_Earth_QGIS.zip sem extrair
+e clique em Instalar Complemento. Abra EcoSafe Earth no menu Complementos
+ou na barra de ferramentas. Requisito mínimo declarado: QGIS 3.28.
+
+Catálogo
+O painel usa o catálogo de EcoSafe_Earth_Atualizacao_Completa.zip, de
+05/11/2026. Busque pelo nome ou pela fonte, selecione a camada e clique
+em Adicionar ao projeto. Satélite, WMS do IBGE e serviços ArcGIS dependem
+da conexão com os respectivos provedores. O QGIS usa as camadas do projeto
+para exibição, consulta, organização e salvamento.
+
+Bases locais do Earth
+Para CAR SEMAS/PA, SNCI/PA e as bases locais de terras indígenas,
+unidades de conservação e APP, escolha o item no catálogo e indique
+EcoSafe_Earth_Atualizacao_Completa.zip quando o painel solicitar o arquivo.
+Salve o GeoPackage no local de trabalho. Outra opção é indicar o arquivo
+vetorial correspondente (GeoPackage, Shapefile ou GeoJSON). Uma vez
+convertida a base, reabra o GeoPackage nas próximas sessões.
+
+Ferramentas
+Use Consultar para ativar a identificação de feições do QGIS. As ferramentas
+de medição seguem as configurações de unidades e elipsoide do projeto.
+Em Ir para coordenadas, informe latitude; longitude em graus decimais.
+Para gerar a carta de localização em PDF, deixe as camadas desejadas
+visíveis, selecione um polígono na camada ativa e clique em Gerar carta de
+localização. Preencha os dados, incluindo as fontes usadas na carta.
+
+O painel adapta o catálogo e o fluxo cartográfico do Earth para a interface
+do QGIS. A consulta trabalha com as camadas carregadas no projeto.

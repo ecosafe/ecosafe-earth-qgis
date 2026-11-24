@@ -1,0 +1,15 @@
+[general]
+name=EcoSafe Earth
+description=Browse Brazilian geospatial layers and export location maps as PDF.
+description[pt_BR]=Adiciona camadas geográficas brasileiras e exporta cartas de localização em PDF.
+version=1.0.1
+icon=icon.png
+qgisMinimumVersion=3.28
+author=EcoSafe Geotecnologias
+email=contato@ecosafegeotecnologias.com.br
+about=Adds Brazilian geospatial layers, satellite imagery, coordinate navigation and PDF map export. Importing local EcoSafe Earth update archives requires the GDAL Python bindings (osgeo), normally included with QGIS. Online layers require access to their providers.
+category=Vector
+homepage=https://github.com/ecosafe/ecosafe-earth-qgis
+repository=https://github.com/ecosafe/ecosafe-earth-qgis
+tracker=https://github.com/ecosafe/ecosafe-earth-qgis/issues
+experimental=False
